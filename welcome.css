@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(172, 168, 168);
+}
+
+.welcome {
+  background-color: white;
+  align-items: center;
+  margin: auto;
+  width: 30%;
+  border: 3px solid green;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.chckbx_wlcm {
+  margin-top: 1rem;
+}
+
+.btn_wlcm_nxt {
+  margin-top: 20px;
+  width: 3cm;
+  height: 1cm;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(26, 163, 26);
+  color: white;
+  cursor: pointer;
+}

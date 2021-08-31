@@ -1,0 +1,12 @@
+section{
+    display: flex;
+    gap: 1cm;
+    padding: 1cm;
+}
+
+section .btn1{
+   display: flex;
+   background-color: white;
+   padding: .5rem;
+   border-radius: 7px;
+}
