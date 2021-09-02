@@ -1,4 +1,4 @@
-# First deploy
+# First deploy on GH Pages
 1. index file
 2. index.css
 3. metryczka.html
