@@ -16,7 +16,7 @@ body {
   gap: 10px;
 }
 .przyciski{
-    padding: px;
+    display: flex;
 }
 .btn_resign {
     
@@ -32,6 +32,10 @@ body {
     background-color: rgb(216, 16, 16);
     color: white;
     cursor: pointer;
+}
+
+.przyciski :nth-child(2) {
+  margin-left: auto;
 }
 
 .link_back {
