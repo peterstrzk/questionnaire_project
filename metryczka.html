@@ -10,40 +10,41 @@
   <body>
     <section class="metryczka">
         <section>Proszę wypełnić poniższe dane:</section>
-      <div>Wiek <input type="text" name="" id="" /></div>
+      <div>Wiek <input type="text" name="" id="age" /></div>
       <div>
         Płeć
-        <select name="" id="">
-          <option value="">Wybierz</option>
-          <option value="">Kobieta</option>
-          <option value="">Mężczyzna</option>
+        <select name="" id="gender">
+          <option value="0">Wybierz</option>
+          <option value="1">Kobieta</option>
+          <option value="1">Mężczyzna</option>
         </select>
       </div>
       <div>
         Wykształcenie 
-        <select name="" id="">
-          <option value="">Wybierz</option>
-          <option value="">Wyższe</option>
-          <option value="">Średnie</option>
-          <option value="">Podstawowe</option>
+        <select name="" id="education">
+          <option value="0">Wybierz</option>
+          <option value="1">Wyższe</option>
+          <option value="1">Średnie</option>
+          <option value="1">Podstawowe</option>
         </select>
       </div>
       <div>
         Miejsce zamieszkania
-        <select name="" id="">
-          <option value="">Wybierz  </option>
+        <select name="" id="acomodation">
+          <option value="0">Wybierz  </option>
           
-          <option value="">Miasto do 50 tys.</option>
-          <option value="">Miasto od 50 tys. do 150 tys.</option>
-          <option value="">Miasto od 150 tys. do 500 tys.</option>
-          <option value="">Miasto powyżej 500 tys.</option>
-          <option value="">Wieś</option>
+          <option value="1">Miasto do 50 tys.</option>
+          <option value="1">Miasto od 50 tys. do 150 tys.</option>
+          <option value="1">Miasto od 150 tys. do 500 tys.</option>
+          <option value="1">Miasto powyżej 500 tys.</option>
+          <option value="1">Wieś</option>
         </select>
       </div>
       <div class="przyciski">
         <a class="link_back" href="index.html"><button class="btn_resign">WSTECZ</button></a>
-      <a href="user_panel.html"><button class="btn_next">DALEJ</button></a>
+      <a href="user_panel.html"><button class="btn_next" id="btn_next">DALEJ</button></a>
     </div>
     </section>
+    <script src="func_metric.js"></script>
   </body>
 </html>

@@ -1,5 +1,5 @@
 
-
+//checkbox validation//
 function validate(e) {
     if (document.getElementById('chck_bx').checked) {
         e.preventDefault();
@@ -16,4 +16,9 @@ function validate(e) {
 }
 
 
+
 document.getElementById("nxt_link").addEventListener("click", (e) => validate(e))
+
+
+
+
