@@ -28,7 +28,7 @@ function form_select(e) {
 
   if (inputSelect[(0, 1, 2)] == true) {
     console.log("done")
-    e.preventDefault()
+    
   } else {
     
     e.preventDefault();
