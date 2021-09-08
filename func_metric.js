@@ -1,4 +1,3 @@
-
 //wiek osoby badanej//
 function form_age(e) {
   let inputVal = document.getElementById("age").value;
@@ -26,6 +25,8 @@ function form_select(e) {
   ];
 
   if (inputSelect[(0, 1, 2)] == true) {
+    e.preventDefault();
+    window.location.href = "./user_panel.html";
   } else {
     e.preventDefault();
     window.alert("Zaznacz wszystkie wymagane opcje!");
