@@ -1,19 +1,16 @@
 
 //checkbox validation//
-function validate(e) {
-    if (document.getElementById('chck_bx').checked) {
-        e.preventDefault();
-        window.location.href = "metryczka.html";
-    } 
-    else {
-        
-        alert("Musisz zaznaczyć zgodę na uczestnictwo w badaniu!");
-        
+const next = document.querySelector('.btn_wlcm_nxt');
+const box = document.getElementById('chck_bx');
 
-        
-    }   
-    
-}
+next.addEventListener('click', e => {
+    if(box.checked) {
+        e.preventDefault();
+        window.location.href = "./metryczka.html";
+    }else{
+        alert("Musisz zaznaczyć zgodę na uczestnictwo w badaniu!");
+    }
+})
 
 
 

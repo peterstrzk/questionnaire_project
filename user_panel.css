@@ -114,6 +114,7 @@ nav {
 }
 
 .calendar div{
+    
     padding: 1rem;
     margin: .5rem;
     background-color: white;
@@ -122,6 +123,10 @@ nav {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 600;
     
+}
+.calendar a{
+  text-decoration: none;
+  color: black;
 }
 
 .calendar div:hover{
