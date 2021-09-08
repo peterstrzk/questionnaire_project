@@ -17,7 +17,6 @@ function form_age(e) {
 }
 
 //reszta metryczki wykształcenie, zamieszkanie, płeć//
-//naprawić walidacje metryczki !!!//
 
 function form_select(e) {
   let inputSelect = [
@@ -27,12 +26,8 @@ function form_select(e) {
   ];
 
   if (inputSelect[(0, 1, 2)] == true) {
-    
-    
   } else {
-    
     e.preventDefault();
-    
     window.alert("Zaznacz wszystkie wymagane opcje!");
   }
 }
