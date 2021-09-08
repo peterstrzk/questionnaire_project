@@ -27,12 +27,12 @@ function form_select(e) {
   ];
 
   if (inputSelect[(0, 1, 2)] == true) {
-    console.log("done")
+    
     
   } else {
     
     e.preventDefault();
-    console.log(inputSelect)
+    
     window.alert("Zaznacz wszystkie wymagane opcje!");
   }
 }
