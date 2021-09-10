@@ -24,9 +24,11 @@ function form_select(e) {
     document.getElementById("acomodation").value,
   ];
 
-  if (inputSelect[(0, 1, 2)] == true) {
-    e.preventDefault();
-    window.location.href = "./user_panel.html";
+  if (
+    inputSelect[0] == true &&
+    inputSelect[1] == true &&
+    inputSelect[2] == true
+  ) {
   } else {
     e.preventDefault();
     window.alert("Zaznacz wszystkie wymagane opcje!");
