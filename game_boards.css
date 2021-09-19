@@ -52,3 +52,36 @@ body {
   color: white;
   cursor: pointer;
 }
+
+.end {
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  /*grid-template-rows: ;*/
+  align-items: center;
+  margin: auto;
+  width: 30%;
+  border: 3px solid green;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 10px;
+}
+.przycisk_end {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.end_game_btn {
+  align-items: center;
+
+  width: 3cm;
+  height: 1cm;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(26, 163, 26);
+  color: white;
+  cursor: pointer;
+  
+  
+}

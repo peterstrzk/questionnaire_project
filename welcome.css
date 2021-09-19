@@ -15,8 +15,13 @@ body {
 .chckbx_wlcm {
   margin-top: 1rem;
 }
+.button1{
+  display: flex;
+  justify-content: flex-end;
+}
 
 .btn_wlcm_nxt {
+  
   margin-top: 20px;
   width: 3cm;
   height: 1cm;
@@ -27,4 +32,3 @@ body {
   color: white;
   cursor: pointer;
 }
-
